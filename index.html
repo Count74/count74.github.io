@@ -4,14 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="yandex-verification" content="d4064efe9b02d205">
+    <meta name="description" content="Разработка и доработка сайтов на Wordpress, Woocommerce и других платформах.">
     <link rel="stylesheet" href="css/app.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Document</title>
+    <title>Алексей Богатенков - разработка и поддержка сайтов. </title><!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+  (function (m, e, t, r, i, k, a) {
+    m[i] = m[i] || function () {
+      (m[i].a = m[i].a || []).push(arguments)
+    };
+    m[i].l = 1 * new Date();
+    for (var j = 0; j < document.scripts.length; j++) {
+      if (document.scripts[j].src === r) {
+        return;
+      }
+    }
+    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+  })
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(92515033, "init", {
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true
+  });
+</script>
+<noscript>
+  <div><img src="https://mc.yandex.ru/watch/92515033" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
   </head>
   <body> 
+    <div class="message-modal modal-hidden">
+      <div class="message-modal__wrap">
+        <div class="message-modal__window" role="dialog" aria-modal="true">
+          <div class="message-modal__text">Какой-то текст</div>
+          <button class="message-modal__btn" data-messagetclose>ок</button>
+        </div>
+      </div>
+    </div>
     <div class="header" id="header">
       <div class="header_tittle-container"> 
         <h1 class="header__title">Разработка сайтов</h1>
@@ -130,6 +165,7 @@
       </div>
       <div class="footer"><a href="#header"><img src="images/caret-up.svg"></a></div>
     </div>
+    <!--include ../sections/_contact.pug-->
     <script defer src="js/scripts-bundled.js"></script>
   </body>
 </html>
